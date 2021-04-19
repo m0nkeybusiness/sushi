@@ -1,0 +1,17 @@
+footer {
+  background-color: $white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  color: $textFooter;
+  padding-bottom: 10px;
+  
+  .wrapper {
+    width: 100%;
+    background-color: $blueLighten;
+    padding-top: 21px;
+  }
+}

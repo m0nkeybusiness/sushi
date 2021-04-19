@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+html {
+  color: $textMain;
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  font-size: 45px;
+}
+
+h5 {
+  font-size: 11px;
+  color: #8e0000;
+}
+
+button {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: $white;
+  background-color: $orange;
+  transition: .3s;
+  padding: 0 24px;
+  cursor: pointer;
+  &:hover {
+    background-color: $orangeLighten;
+    transition: .3s;
+  }
+  @media screen and (min-width: 320px) {
+    height: 30px;
+    padding: 20px 20px;
+  }
+}
